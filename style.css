@@ -15,10 +15,10 @@ html {
 }
 
 .key {
-  background: linear-gradient(to bottom right, #1e1e1e, #2c2c2c);
-  border: 0.2vw solid #333;
+  background: linear-gradient(to bottom right, #7a7b9f, #2c2c2c);
+  border: 0.2vw solid #997f7f;
   border-radius: 1vw;
-  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.5vw 1vw rgba(216, 211, 211, 0.4);
   padding: 2vh 1vw;
   width: 10vw;
   color: #fff;
@@ -28,27 +28,27 @@ html {
 }
 
 .key:hover {
-  box-shadow: 0 0 1.5vw rgba(255, 198, 0, 0.3);
-  border-color: #ffc600;
+  box-shadow: 0 0 1.5vw rgba(139, 121, 216, 0.3);
+  border-color: #bf74e5;
 }
 
 .playing {
   transform: scale(1.15);
-  border-color: #ffc600;
-  box-shadow: 0 0 1.5vw #ffc600;
+  border-color: #7678cc;
+  box-shadow: 0 0 1.5vw #8286bc
 }
 
 kbd {
   display: block;
   font-size: 3.5vw;
   font-weight: bold;
-  color: #ffffff;
+  color: #15172f;
 }
 
 .sound {
   font-size: 1.2vw;
   text-transform: uppercase;
   letter-spacing: 0.15vw;
-  color: #ffc600;
+  color: #a2a0ac;
   margin-top: 1vh;
 }
